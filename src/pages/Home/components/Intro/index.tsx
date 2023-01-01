@@ -1,11 +1,13 @@
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 import { useTheme } from 'styled-components'
+
 import {
   BenefitsContainer,
   IntroContainer,
   IntroContent,
   IntroTitleText,
 } from './styles'
+
 import introImg from '../../../../assets/intro-img.png'
 
 import { RegularText } from '../../../../components/Typography'

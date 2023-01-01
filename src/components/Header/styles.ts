@@ -7,6 +7,10 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: center;
   background: ${({ theme }) => theme.colors['base-background']};
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
 
   > div {
     width: 100%;
