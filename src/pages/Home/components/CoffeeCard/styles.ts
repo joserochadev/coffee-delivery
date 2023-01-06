@@ -9,6 +9,7 @@ export const CoffeeCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding-top: 0;
   margin-top: 3.3rem;
   text-align: center;

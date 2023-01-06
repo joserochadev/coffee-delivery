@@ -12,7 +12,7 @@ export const QuantityInputContainer = styled.div`
 
   input {
     text-align: center;
-    width: 100%;
+    width: 1.25rem;
     background: none;
     border: none;
     color: ${({ theme }) => theme.colors['base-title']};

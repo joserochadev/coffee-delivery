@@ -1,3 +1,4 @@
+import { rgba } from 'polished'
 import styled, { css } from 'styled-components'
 
 export const HeaderContainer = styled.header`
@@ -10,7 +11,8 @@ export const HeaderContainer = styled.header`
   position: sticky;
   top: 0;
   z-index: 5;
-  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 3px
+    ${({ theme }) => rgba(theme.colors['base-background'], 0.5)};
 
   > div {
     width: 100%;

@@ -15,13 +15,14 @@ body{
 }
 
 body, input, textarea, button{
-  font-family: ${({ theme }) => theme.fonts.regular};
+  font-family: ${({ theme }) => theme.fonts.regular}, sans-serif;
   font-weight: 400;
   font-size: ${({ theme }) => theme.textSizes['text-regular-m']};
 }
 
 button{
   cursor: pointer;
+  border: none;
 
 }
 

@@ -1,7 +1,7 @@
 import { ShoppingCart } from 'phosphor-react'
 import { QuantityInput } from '../../../../components/QuantityInput'
 import { RegularText, TitleText } from '../../../../components/Typography'
-import { formatMoney } from '../../../../urils/formatMoney'
+import { formatMoney } from '../../../../utils/formatMoney'
 import {
   AddCartWrapper,
   CardFooter,
