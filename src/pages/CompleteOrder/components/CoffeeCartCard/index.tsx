@@ -12,7 +12,7 @@ export function CoffeeCartCard() {
     <CoffeeCartCardContainer>
       <div>
         <img
-          src="/coffees/americano.png"
+          src="coffees/americano.png"
           alt="Imagem de uma xícara de café vista de cima"
         />
         <div>
