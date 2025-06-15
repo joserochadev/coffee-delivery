@@ -276,7 +276,7 @@ input[type="number"]{
     margin-left: 0.3rem;
     transition: 0.4s;
   }
-`;function vy({coffee:e}){const t=fy(e.price);return A(py,{children:[E("img",{src:`/coffees/${e.photo}`,alt:"imagem de uma xícara de café"}),E(hy,{children:e.tags.map(n=>A("span",{children:[n," "]},`${e.id}${e.name}`))}),E(my,{children:e.name}),E(yy,{children:e.description}),A(gy,{children:[A("div",{children:[E(Qe,{size:"s",children:"R$"}),E(Tn,{size:"m",color:"text",as:"strong",children:t})]}),A(ky,{children:[E(Rp,{}),E("button",{type:"button",children:E(Js,{size:22,weight:"fill"})})]})]})]})}const xy=B.section`
+`;function vy({coffee:e}){const t=fy(e.price);return A(py,{children:[E("img",{src:`coffees/${e.photo}`,alt:"imagem de uma xícara de café"}),E(hy,{children:e.tags.map(n=>A("span",{children:[n," "]},`${e.id}${e.name}`))}),E(my,{children:e.name}),E(yy,{children:e.description}),A(gy,{children:[A("div",{children:[E(Qe,{size:"s",children:"R$"}),E(Tn,{size:"m",color:"text",as:"strong",children:t})]}),A(ky,{children:[E(Rp,{}),E("button",{type:"button",children:E(Js,{size:22,weight:"fill"})})]})]})]})}const xy=B.section`
   width: 100%;
   margin-top: 2rem;
 `,wy=B.div`
@@ -429,7 +429,7 @@ input[type="number"]{
   svg {
     color: ${({theme:e})=>e.colors["brand-purple"]};
   }
-`;function Al(){return A(Oy,{children:[A("div",{children:[E("img",{src:"/coffees/americano.png",alt:"Imagem de uma xícara de café vista de cima"}),A("div",{children:[E(Qe,{color:"subtitle",children:" Expresso Tradicional"}),A(Fy,{children:[E(Rp,{}),A(Ty,{children:[E(A2,{size:16}),"REMOVER"]})]})]})]}),E("p",{children:"R$ 9,90"})]})}const Iy=B.button`
+`;function Al(){return A(Oy,{children:[A("div",{children:[E("img",{src:"coffees/americano.png",alt:"Imagem de uma xícara de café vista de cima"}),A("div",{children:[E(Qe,{color:"subtitle",children:" Expresso Tradicional"}),A(Fy,{children:[E(Rp,{}),A(Ty,{children:[E(A2,{size:16}),"REMOVER"]})]})]})]}),E("p",{children:"R$ 9,90"})]})}const Iy=B.button`
   width: 100%;
   padding: 1rem 2.8rem;
   color: ${({theme:e})=>e.colors["base-white"]};
