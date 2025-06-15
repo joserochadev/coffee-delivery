@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 
 import { Home } from './pages/Home'
 import { CompleteOrder } from './pages/CompleteOrder'
@@ -7,7 +7,7 @@ import { OrderConfirmed } from './pages/OrderConfirmed'
 
 export function Router() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
@@ -15,6 +15,6 @@ export function Router() {
           <Route path="/orderConfirmed" element={<OrderConfirmed />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
